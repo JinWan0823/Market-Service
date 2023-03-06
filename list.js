@@ -11,4 +11,14 @@ const productCard = getProductCard( {
     "originalPrice" : 3000
 })
 
+const productCard2 = getProductCard({
+    "id" : 1,
+    "imgSrc" : "./public/assets/식빵.jpg",
+    "name" : "우유 토스트 식빵",
+    "discountPercent" : 10,
+    "price" : 3000,
+    "originalPrice" : 3300
+})
+
 sectionDOM.appendChild(productCard)
+sectionDOM.appendChild(productCard2)
